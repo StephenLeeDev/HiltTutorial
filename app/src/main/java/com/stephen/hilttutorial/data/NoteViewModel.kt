@@ -16,7 +16,7 @@ class NoteViewModel @Inject constructor(private val repository: NoteRepository) 
 
     init {
         viewModelScope.launch {
-            _note.value = repository.getNote()
+//            _note.value = repository.getNote()
         }
     }
 
